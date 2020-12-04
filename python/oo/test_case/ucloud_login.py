@@ -1,3 +1,11 @@
+
+
+import sys
+import os
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.split(curPath)[0]
+sys.path.append(rootPath)
+
 from Business.login import Login
 from common_test.selenium_driver import logg
 from common_test.unit_test import Myuint_test

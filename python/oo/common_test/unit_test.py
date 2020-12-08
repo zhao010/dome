@@ -5,7 +5,7 @@
 
 import unittest
 
-from /root/.jenkins/workspace/login/python/oo/common_test.selenium_driver import driver_Test, logg
+from /login/python/oo/common_test.selenium_driver import driver_Test, logg
 
 
 class Myuint_test(unittest.TestCase):

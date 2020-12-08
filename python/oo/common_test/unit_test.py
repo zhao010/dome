@@ -2,6 +2,11 @@
 #创建unittest框架，
 #
 #
+import os
+PATH = os.environ
+for key in PATH:
+    print(key,PATH[key])
+ 
 import os,sys
 sys.path.append("/root/.jenkins/workspace/login/") 
 import unittest

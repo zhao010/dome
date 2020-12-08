@@ -5,7 +5,7 @@
 
 import unittest
 
-from common_test.selenium_driver import driver_Test, logg
+from python/oo/common_test.selenium_driver import driver_Test, logg
 
 
 class Myuint_test(unittest.TestCase):

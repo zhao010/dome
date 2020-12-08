@@ -7,7 +7,7 @@ import logging
 from logging import config
 from selenium import webdriver
 #配置文件的路径
-File_config = '/Users/didi/Desktop/python/oo/config_test/log.conf.py'
+File_config = 'python/oo/config_test/log.conf.py'
 #读取配置文件
 config.fileConfig(File_config)
 #生成日志文件

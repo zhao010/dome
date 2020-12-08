@@ -22,4 +22,5 @@ def driver_Test():
     opt.add_argument('--hide-scrollbars')  # 隐藏滚动条, 应对一些特殊页面
     # 用的是谷歌浏览器
     driver = webdriver.Chrome('/usr/bin/chromedriver', options=opt)
+    print('运行成功')
     return driver

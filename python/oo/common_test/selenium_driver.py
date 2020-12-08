@@ -2,7 +2,8 @@
 #里面写获取公共驱动driver
 #和日志配置
 #
-
+import os,sys
+sys.path.append("/root/.jenkins/workspace/login/") 
 import logging
 from logging import config
 from selenium import webdriver

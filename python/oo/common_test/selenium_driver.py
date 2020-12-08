@@ -7,11 +7,11 @@ import logging
 from logging import config
 from selenium import webdriver
 #配置文件的路径
-File_config = 'python/oo/config_test/log.conf.py'
+#File_config = 'python/oo/config_test/log.conf.py'
 #读取配置文件
-config.fileConfig(File_config)
+#config.fileConfig(File_config)
 #生成日志文件
-logg = logging.getLogger()
+#logg = logging.getLogger()
 
 def driver_Test():
     opt = webdriver.ChromeOptions()

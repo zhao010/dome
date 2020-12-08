@@ -8,7 +8,7 @@ for key in PATH:
     print(key,PATH[key])
  
 import os,sys
-sys.path.append("/root/.jenkins/workspace/login/") 
+sys.path.append("/root/.jenkins/workspace/login/python/oo/common_test/selenium_driver.py") 
 import unittest
 
 from common_test.selenium_driver import driver_Test, logg

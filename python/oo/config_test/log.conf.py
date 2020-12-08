@@ -23,7 +23,7 @@ args=(sys.stdout,)
 class=FileHandler
 level=INFO
 formatter=form01
-args=('/Users/didi/Desktop/python/oo/logs_test/runlogs.log','a+')
+args=('python/oo/logs_test/runlogs.log','a+')
 
 
 [formatters]

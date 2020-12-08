@@ -2,7 +2,8 @@
 #创建unittest框架，
 #
 #
-
+import os,sys
+sys.path.append("/root/.jenkins/workspace/login/") 
 import unittest
 
 from common_test.selenium_driver import driver_Test, logg

@@ -6,7 +6,7 @@ import sys
 sys.path.append(r"/root/.jenkins/workspace/selenium_demo1/python")
 import unittest
 
-from common_test.selenium_driver import driver_Test, logg
+from common_test.selenium_driver import driver_Test
 
 
 class Myuint_test(unittest.TestCase):

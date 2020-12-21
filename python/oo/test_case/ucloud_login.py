@@ -1,4 +1,6 @@
 
+import sys
+sys.path.append(r"/root/.jenkins/workspace/selenium_demo1/python")
 from Business.login import Login
 from common_test.selenium_driver import logg
 from common_test.unit_test import Myuint_test

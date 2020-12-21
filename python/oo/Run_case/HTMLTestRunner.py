@@ -630,7 +630,7 @@ class HTMLTestRunner(Template_mixin):
         self.generateReport(test, result)
         # print >> sys.stderr, '\nTime Elapsed: %s' % (self.stopTime-self.startTime)
 	sys.stderr.write('\nTime Elapsed: %s\n' % (self.stopTime -self.startTime))
-        #print(sys.stderr, '\nTime Elapsed: %s' % (self.stopTime-self.startTime))
+        print(sys.stderr, '\nTime Elapsed: %s' % (self.stopTime-self.startTime))
         return result
 
 

@@ -1,3 +1,7 @@
+import sys
+sys.path.append(r"/root/.jenkins/workspace/selenium_demo1/python")
+
+
 from selenium.webdriver.common.by import By
 
 from pageobject_test.pageobject import PageObject_test

@@ -2,7 +2,7 @@ import sys
 sys.path.append(r"/root/.jenkins/workspace/selenium_demo1/python")
 import time
 import csv
-from common_test.selenium_driver import driver_Test, logg
+from common_test.selenium_driver import driver_Test
 
 class PageObject_test(object):
     def __init__(self,driver):

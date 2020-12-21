@@ -2,13 +2,8 @@
 #创建unittest框架，
 #
 #
-import os
-PATH = os.environ
-for key in PATH:
-    print(key,PATH[key])
- 
-import os,sys
-sys.path.append("/root/.jenkins/workspace/login/python/oo/common_test") 
+import sys
+sys.path.append(r"/root/.jenkins/workspace/selenium_demo1/python")
 import unittest
 
 from common_test.selenium_driver import driver_Test, logg

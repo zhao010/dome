@@ -1,3 +1,6 @@
+import sys
+sys.path.append(r"/root/.jenkins/workspace/selenium_demo1/python")
+
 [loggers]
 keys=root,infoLogger
 

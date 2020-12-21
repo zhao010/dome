@@ -1,4 +1,5 @@
-
+import sys
+sys.path.append(r"/root/.jenkins/workspace/selenium_demo1/python")
 import time
 import csv
 from common_test.selenium_driver import driver_Test, logg
